@@ -2,14 +2,21 @@
 The first part exercise will be turning on an LED from scratch, here I am using the NUCLEO-F446RE board.  
 the goal is to blink the LED2 on pin PA5 on the board 
  
+## STM32F446 board schematic
+![board schematic](images/Picture1.png)
 
 You will need your MCU chips datasheet and reference manual, with these keys you can unlock the world of BareMetal 
 1. First you need to find your MCU block diagram on the datasheet, here’s the STM32F446xC/E
+
+## STM32F446 Block Diagram
+![STM32F446 Block Diagram](images/Picture2.png)
  
 Since we are trying to turn on LED2 from the GPIO pin A5, we look for GPIOA port, what bus it’s connected to, 
 you’ll notice GPIOA port is connected to AHB1 bus
 2. Then go to reference manual, Memory map and register boundary addresses to find the address of the AHB1 bus
 
+## AHB1 Memory Map
+![AHB1 Memory Map](images/Picture3.png)
 
  
 
