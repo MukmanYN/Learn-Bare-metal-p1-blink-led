@@ -67,14 +67,6 @@ Output mode _ so bits 01 on the GPIOA_MODER register MODER5 ( bits 11 , and 10)
 ![](images/Picture15.png)
  
 
- 
-
-Then  we set the  GPIOA_ODR regsiter to  enabe the pin we want (5)
-
- ![](images/Picture16.png)
- 
-
-  
 
 8. Then to actually write to the GPIOA_ODR register to output data (voltage) to turn on LD2
 
